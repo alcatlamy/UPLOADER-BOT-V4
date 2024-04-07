@@ -11,7 +11,7 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6422766880:AAGNgftRCUJxgwU_-evt1lM7K4wlN7zyZI0")
     
     API_ID = int(os.environ.get("API_ID", "11216687"))
     
@@ -47,7 +47,7 @@ class Config(object):
     
     LOGGER = logging
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002087699847")
+    #UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002087699847")
     
     OWNER_ID = int(os.environ.get("OWNER_ID", "5029227688"))
     
