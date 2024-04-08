@@ -39,7 +39,7 @@ class Config(object):
     
     DEF_WATER_MARK_FILE = "UploadLinkToFileBot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://<karika>:<karika>@cluster0.dv9xfwk.mongodb.net/")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://tojose6559:<password>@cluster0.oipfyuc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/")
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
